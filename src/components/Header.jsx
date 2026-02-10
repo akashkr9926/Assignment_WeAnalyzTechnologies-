@@ -1,4 +1,4 @@
-import { Search, Plus, HelpCircle, Gift } from "lucide-react";
+import { Search, ChevronDown, HelpCircle, Gift } from "lucide-react";
 
 export default function Header() {
   return (
@@ -29,8 +29,8 @@ export default function Header() {
       {/* Buttons at Right corner*/}
       <div className="flex items-center gap-4">
         <button className="bg-blue-600 hover:bg-blue-500 px-3 py-1.5 rounded text-sm flex items-center gap-1">
-          <Plus size={14} />
           Create
+          <ChevronDown size={16} className="text-white border-l" />
         </button>
 
         <HelpCircle
